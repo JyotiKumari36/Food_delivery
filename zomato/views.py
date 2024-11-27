@@ -6,5 +6,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def spicy(request):
-    return HttpResponse("<h1>Zomato delivers fast compared to swiggy</h1>
-                         <p>the founder of zomato is Deepinder Goyal</p>")
+    return HttpResponse('''<h1>Zomato delivers fast compared to swiggy</h1>
+    <p>The founder of zomato is Deepinder Goyal</p>''')
